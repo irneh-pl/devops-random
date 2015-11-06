@@ -6,7 +6,7 @@ NR>1 {
   UsedDisk[$1]=$6;
   FreeDisk[$1]=$5-$6;
   UsedRAM[$1]=$3-$4;
-  FreeRAM[$1]=$4; x="o"
+  FreeRAM[$1]=$4;
 }
 END {
   for (i in vCPUs) {
